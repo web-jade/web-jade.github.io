@@ -1,0 +1,26 @@
+@import "__content/project-item__content.scss";
+@import "__header/project-item__header.scss";
+@import "__heading/project-item__heading.scss";
+@import "__image/project-item__image.scss";
+@import "__lead/project-item__lead.scss";
+
+.project-item {
+  cursor: pointer;
+  margin-bottom: 76px;
+
+  &:hover {
+    .project-item__content {
+      opacity: 1;
+    }
+
+    .project-item__image {
+      img {
+        transform: scale(1.03);
+      }
+    }
+
+    .project-item__heading, .project-item__lead {
+      text-decoration: underline;
+    }
+  }
+}

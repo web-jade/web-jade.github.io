@@ -1,0 +1,9 @@
+@import "__item/navigation-menu__item.scss";
+@import "__link/navigation-menu__link.scss";
+
+.navigation-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}

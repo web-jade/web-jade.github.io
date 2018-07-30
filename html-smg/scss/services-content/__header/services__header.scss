@@ -1,0 +1,28 @@
+.services__header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1109px;
+  margin: 0 auto;
+  margin-bottom: 67px;
+
+  .btn {
+    width: 299px;
+    font-size: 14px;
+    border-radius: 0;
+    line-height: 50px;
+    padding: 0 35px;
+    border: 2px solid #073f8e;
+    position: relative;
+
+    img {
+      position: absolute;
+      right: 24px;
+      top: 0;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+}

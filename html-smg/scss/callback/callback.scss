@@ -1,0 +1,15 @@
+@import "__lead/callback__lead.scss";
+@import "callback-form/callback-form.scss";
+
+.callback {
+  padding-top: 135px;
+  padding-bottom: 128px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 27px;
+  }
+}

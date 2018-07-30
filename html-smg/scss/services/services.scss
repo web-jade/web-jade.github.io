@@ -1,0 +1,24 @@
+@import "services-header/services-header.scss";
+@import "services-list/services-list.scss";
+
+.services {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-top: 119px;
+  padding-bottom: 117px;
+
+  .services-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a.site-button__more_mobile {
+    display: none;
+  }
+}
+
+.services__row {
+  margin-bottom: 43px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(194, 194, 194, 0.54);
+}

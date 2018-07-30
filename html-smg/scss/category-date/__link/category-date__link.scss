@@ -1,0 +1,17 @@
+a.category-date__link {
+  color: #878585;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 46px;
+  text-decoration: none;
+
+  -webkit-transition: .3s ease-out;
+  -moz-transition: .3s ease-out;
+  -ms-transition: .3s ease-out;
+  -o-transition: .3s ease-out;
+  transition: .3s ease-out;
+
+  &:hover {
+    color: #3182eb;
+  }
+}

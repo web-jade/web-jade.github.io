@@ -1,0 +1,18 @@
+a.copyright {
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+  font-size: 14px;
+  opacity: .7;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+
+  img {
+    margin-left: 13px;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

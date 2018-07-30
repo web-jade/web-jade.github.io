@@ -1,0 +1,12 @@
+a.footer-navigation-menu__link {
+  color: #abceff;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  opacity: .7;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 1;
+  }
+}

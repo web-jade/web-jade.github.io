@@ -1,0 +1,51 @@
+@import "__logo-image/header__logo-image.scss";
+@import "__logo-link/header__logo-link.scss";
+@import "navigation/navigation.scss";
+
+.header {
+  position: absolute;
+  z-index: 100;
+  top: 21px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &.header_inner {
+    position: static;
+    margin: 21px auto;
+
+    a.navigation-menu__link {
+      color: #073f8e;
+    }
+
+    .navigation-menu__item {
+      &.navigation-menu__item_active {
+        a.navigation-menu__link {
+          color: #3182eb;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .hamburger--collapse {
+      .hamburger-inner {
+        background-color: #073f8e;
+
+        &::before {
+          background-color: #073f8e;
+        }
+
+        &::after {
+          background-color: #073f8e;
+        }
+      }
+    }
+
+    a.navigation__phone {
+      color: #073f8e;
+    }
+  }
+}

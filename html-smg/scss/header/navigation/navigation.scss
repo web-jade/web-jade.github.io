@@ -1,0 +1,24 @@
+@import "__phone/navigation__phone.scss";
+@import "navigation-menu/navigation-menu.scss";
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+  .btn {
+    line-height: 1;
+    padding: 18px 32px;
+    font-size: 14px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-width: 2px;
+    margin-left: 40px;
+
+    &:hover, &:active, &:focus {
+      color: #fff;
+      background-color: #073f8e;
+      border-color: #073f8e;
+    }
+  }
+}

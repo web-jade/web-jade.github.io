@@ -1,0 +1,7 @@
+.our-clients-slider__link {
+  &:hover {
+    .our-clients-slider__image {
+      filter: grayscale(0%);
+    }
+  }
+}

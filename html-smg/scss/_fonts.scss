@@ -1,0 +1,10 @@
+@import "_mixins/font-face";
+
+// Montserrat
+@include font-face("Montserrat", "../fonts/Montserrat/Montserrat-Light/Montserrat-Light", 300);
+@include font-face("Montserrat", "../fonts/Montserrat/Montserrat-Regular/Montserrat-Regular", normal);
+@include font-face("Montserrat", "../fonts/Montserrat/Montserrat-Bold/Montserrat-Bold", bold);
+
+// ArialMT
+@include font-face("ArialMT", "../fonts/ArialMT/ArialRegularMT/ArialRegularMT", normal);
+@include font-face("ArialMT", "../fonts/ArialMT/ArialBoldMT/ArialBoldMT", bold);

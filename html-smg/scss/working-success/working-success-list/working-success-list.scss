@@ -1,0 +1,17 @@
+@import "__item/working-success-list__item.scss";
+
+.working-success-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+
+  .owl-item {
+    border-right: 2px solid rgba(247, 247, 247, 0.1);
+    padding-left: 110px;
+    img {
+      width: auto;
+    }
+  }
+}

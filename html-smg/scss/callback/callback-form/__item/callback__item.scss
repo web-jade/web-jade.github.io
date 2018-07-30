@@ -1,0 +1,29 @@
+.callback__item {
+  width: 309px;
+  height: 54px;
+  padding-left: 19px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 46px;
+  letter-spacing: 0.9px;
+
+  margin-right: 28px;
+
+  &::placeholder {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0.9px;
+  }
+
+  &:focus {
+    &::placeholder {
+      opacity: 0;
+    }
+  }
+}

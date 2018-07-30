@@ -1,0 +1,12 @@
+.services-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 95px;
+
+  a.site-button__more {
+    &::before {
+      top: -12px;
+    }
+  }
+}

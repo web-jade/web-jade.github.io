@@ -1,0 +1,1 @@
+.services-list__item:not(:last-child){margin-bottom:57px}a.services-list__link{color:#2f2f2f;font-size:18px;font-weight:400;line-height:30px;letter-spacing:.45px;text-decoration:none;position:relative;top:-5px;left:12px}a.services-list__link:hover{color:#073f8e;text-decoration:underline}.services-list{margin:0;padding-left:25px;list-style-image:url(../img/icons/icon-list.svg)}
